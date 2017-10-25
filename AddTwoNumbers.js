@@ -10,6 +10,14 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
+
+ /**
+  *思路：
+  *按链表遍历相加
+  *如果有进位则保存进位到下一轮加入
+  *
+  */
+
 var addTwoNumbers = function(l1, l2) {
     var val1,val2; // l1.val,l2.val
     var value = 0; // 0 or 1 
