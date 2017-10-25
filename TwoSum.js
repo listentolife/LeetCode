@@ -3,6 +3,17 @@
  * @param {number} target
  * @return {number[]}
  */
+
+ /**
+  *思路：
+  *使用哈希表来做
+  *遍历数组每个元素nums[i]
+  *判断target-nums[i]是否存在哈希表中
+  *存在则返回两个值的下标
+  *不存在则把元素存入哈希表
+  *
+  */
+
 var twoSum = function(nums, target) {
     let arr = [],
         hash = {},
